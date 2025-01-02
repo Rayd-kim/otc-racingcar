@@ -3,6 +3,7 @@ import { Console, MissionUtils } from "@woowacourse/mission-utils";
 class RacingCar {
 	#name
 	#mov_distance = ""
+	// 숫자로 바꾸는것이 좋다.
 
 	constructor(name) {
 		this.#name = name;
